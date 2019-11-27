@@ -20,12 +20,12 @@ console.log(largeRooms);
 // let companies: Array<string> = ['Microsoft', 'Google', 'Amazon'];
 // let primeNums: Array<number> = [1, 15];
 // let lastValue = primeNums.pop();
-function shortenArray(data, amountToShorten) {
-    return data.splice(amountToShorten, data.length);
-}
-var shrinkArray;
-shrinkArray = shortenArray;
-console.log(shrinkArray);
+// function shortenArray<T>(data: Array<T>, amountToShorten: number): Array<T> {
+//   return data.splice(amountToShorten, data.length);
+// }
+// let shrinkArray: <U>(original: Array<U>, units: number) => Array<U>;
+// shrinkArray = shortenArray;
+// console.log(shrinkArray);
 // let stringArray: string[] = ['Visual Basic', 'C#', 'T-SQL', 'JavaScript'];
 // let fewerLanguages: Array<string> = shortenArray<string>(stringArray, 2);
 // console.log(fewerLanguages)
